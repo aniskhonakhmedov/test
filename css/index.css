@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(180deg, #0d0a2d 0%, #1b009a 25%, #0b0b67 52.08%, #1b237c 74.48%, #06219a 100%);
+    color: white;
+    height: 8018px;
+}
+
+.second_item {
+    position: relative;
+    height: 1595px;
+}
+.second_item .item {
+    display: flex;
+    align-items: center;
+}
+.second_item .item:nth-child(2) {
+    position: absolute;
+    right: 0;
+    margin-top: -85px;
+}
+
+.second_item .item h1 {
+    font-weight: 600;
+    font-size: 64px;
+}
+.second_item .item p {
+    font-weight: 400;
+    font-size: 32px;
+    max-width: 688px;
+}
+.second_item .item .right-side {
+    margin-left: 80px;
+}
+
+.item .left-side {
+    width: fit-content;
+}
+.item .left-side .text {
+    margin-left: 17px;
+}
+.item .left-side img,
+.item .right-side img {
+    width: 90%;
+    height: 90%;
+}
+
+.item .right-side {
+    display: flex;
+    width: fit-content;
+    justify-content: end;
+}
+
+.third_block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third_block .title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 45px;
+    margin-top: 24px;
+}
+
+.cards {
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 59px 70px;
+    width: fit-content;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cards .item {
+    width: fit-content;
+}
+.cards .item img{
+    width: 100%;
+}
+
+.btn button {
+    width: 485px;
+    height: 105px;
+    font-weight: 700;
+    margin-top: 55px;
+    font-size: 32px;
+    border: none;
+    background-image: linear-gradient(90deg, #667EEA 0%, #764BA2 100%);
+    border-radius: 15px;
+}
