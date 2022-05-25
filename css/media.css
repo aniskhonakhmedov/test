@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1575px) {
     .second_item {
-        height: 1198px;
+        height: 1380px;
     }
     .second_item .text h1 {
         font-size: 48px;
@@ -21,6 +21,19 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .second_item {
+        height: 1260px;
+    }
+    .third_block .title {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .second_item {
+        height: 870px;
+    }
+}
 @media only screen and (max-width: 818px) {
     .second_item .text p {
         max-width: 289px;
@@ -29,14 +42,32 @@
     }
     .item .left-side img,
     .item .right-side img {
-        width: 70%;
-        height: 70%;
+        width: 50%;
+        height: 50%;
     }
     .second_item .item h1 {
         font-size: 32px;
     }
     .second_item .item .right-side {
         margin-left: -170px;
+    }
+    .second_item {
+        height: 610px;
+    }
+    .third_block h1 {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .third_block .title {
+        margin-bottom: 10px;
+    }
+    .third_block button {
+        width: 230px;
+        height: 58px;
+        font-weight: 600;
+        margin-top: 14px;
+        font-size: 22px;
+        border-radius: 8px;
     }
 }
 
@@ -51,6 +82,9 @@
     }
     .second_item .item:nth-child(2) {
         margin-top: -60px;
+    }
+    .second_item {
+        height: 510px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -72,9 +106,9 @@
         margin-top: -30px;
     }
     .second_item {
-        height: 325px;
+        height: 330px;
     }
-    .third_block .cards{
+    .third_block .cards {
         grid-gap: 16px !important;
     }
     .third_block .title {
