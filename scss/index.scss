@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(180deg, #0d0a2d 0%, #1b009a 25%, #0b0b67 52.08%, #1b237c 74.48%, #06219a 100%);
+    color: white;
+    height: 8018px;
+}
+
+.second_item {
+    .item {
+        display: flex;
+        align-items: center;
+        img{
+            width: 40%;
+        }
+        &:nth-child(2){
+            margin-top: -85px;
+            justify-content: space-between;
+            .text{
+                margin-left: 80px;
+            }
+        }
+        &:nth-child(1){
+            .text{
+                margin-left: 80px;
+
+            }
+        }
+        .text {
+            h1 {
+                font-weight: 600;
+                font-size: 64px;
+                line-height: 78px;
+                letter-spacing: -0.07em;
+            }
+            p {
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 119.5%;
+                letter-spacing: -0.005em;
+                max-width: 688px;
+                overflow: hidden;
+                max-height: 300px;
+            }
+        }
+    }
+}
+
+.third_block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        font-weight: 700;
+        font-size: 48px;
+        margin-bottom: 45px;
+        margin-top: 24px;
+    }
+    .cards {
+        display: grid;
+        margin: 0 auto;
+        grid-gap: 59px 70px;
+        width: fit-content;
+        grid-template-columns: repeat(3, 1fr);
+        .item {
+            width: fit-content;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.btn button {
+    width: 485px;
+    height: 105px;
+    font-weight: 700;
+    margin-top: 55px;
+    font-size: 32px;
+    border: none;
+    background-image: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+}
+
+/* Footer */

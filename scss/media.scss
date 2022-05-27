@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1280px){
+    .second_item {
+        .item {
+            .text {
+                h1 {
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 78px;
+                    letter-spacing: -0.07em;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 26px;
+                    line-height: 119.5%;
+                    letter-spacing: -0.005em;
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+    
+}
