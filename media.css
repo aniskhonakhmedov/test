@@ -1,0 +1,59 @@
+@media only screen and (max-width: 400px) {
+    .navigation-list {
+        display: none;
+    }
+
+    .box-logo {
+        border-right: none;
+    }
+
+    .header {
+        border-bottom: none;
+        justify-content: space-between;
+
+    }
+
+    .sa span {
+        display: none;
+    }
+
+    .razmer {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 106.8%;
+    }
+
+    .prem {
+        width: 275px;
+    }
+
+    .container {
+        margin-left: 15px;
+    }
+
+    .prem1 {
+        display: none;
+    }
+
+    .previy {
+        display: none;
+    }
+
+    .block {
+        display: none;
+    }
+
+    .bebe-2 {
+        width: 388px;
+    }
+
+    .prevy {
+        width: 150px;
+    }
+
+    .user {
+        width: 172px;
+        height: 111px;
+    }
+}
